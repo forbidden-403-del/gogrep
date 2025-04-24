@@ -57,5 +57,4 @@ func main() {
 	file.Read(data)
 	string_data := string(data)
 	matchString(string_data, to_match)
-	tui_test()
 }
